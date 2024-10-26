@@ -1,0 +1,41 @@
+General:
+node: nodevars
+open visual code studio directly: code . 
+
+
+typescript:
+to run : tsc "name".ts && node "name"
+
+
+angular:
+create angular app: ng new "name"
+run the file: ng serve
+create a component: ng g c "name"
+to build files(used to upload in cloud for deployment): ng build
+
+
+jest:testing
+start: npm init
+npm i --save-dev @types/jest or npm install jest
+
+
+GitHub permission command: git config --global http.sslVerify false
+git push commands:
+a) git add .
+b) git commit -m "name"
+c) git push -u origin main/master or simply git push
+
+
+
+aws:
+install git in aws cli: sudo yum install git -y
+install java in cli: sudo yum install java-21-amazon-corretto-headless -y
+install maven in cli: sudo yum install maven -y
+to run java in aws cli: mvn spring-boot:run
+to run jar file in cli: java -jar fileName.jar (same with war file)
+
+
+to upload jar file in aws cli:
+scp -i "ust-ec2-key.pem" trainee-app.jar ec2-user@54.147.170.59:/home/ec2-user
+
+
